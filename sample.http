@@ -1,0 +1,9 @@
+# the IntelliJ build in HTTP client, read a description at
+# https://www.vojtechruzicka.com/intellij-idea-tips-tricks-testing-restful-web-services/
+# or the official
+# https://www.jetbrains.com/help/idea/exploring-http-syntax.html
+
+GET http://localhost:8080/api/movies
+Accept: application/json
+
+###

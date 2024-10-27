@@ -1,0 +1,17 @@
+spring:
+  main:
+    banner-mode: off
+  mvc:
+    log-request-details: true
+  jackson:
+    serialization:
+      indent-output: true
+  output:
+    ansi:
+      enabled: always
+logging:
+  pattern:
+    console: "%clr(%5p) %clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:%wEx}"
+  level:
+    "web": DEBUG
+    "org.springframework.web.reactive.function.client.ExchangeFunctions": TRACE
